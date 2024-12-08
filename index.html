@@ -42,6 +42,7 @@
         font-weight: 300;
       }
       
+      .tableBlock,
       #header,
       #footer,
       figure, 
@@ -100,9 +101,36 @@
         border: 3px gray dashed;
       }
       
+      .tableBlock {
+/*         margin: 0px auto; */
+        padding: 0px;
+/*         align-content: center; */
+        text-align: center;
+      }
+      
+      .tableBlock table {
+        border: 3px gray solid;
+        margin: 30px auto;
+/*         padding: 0px; */
+/*         align-content: center; */
+/*         text-align: center; */
+      }
+      
+      .tableBlock table td, .tableBlock table th {
+        padding: 10px;
+        border: 3px gray solid;
+/*         margin: 30px auto; */
+/*         padding: 0px; */
+/*         align-content: center; */
+/*         text-align: center; */
+      }
+      
+      
+      
       #navbar {
         position: fixed;
         width: 100%;
+        z-index: 1;
       }
       
       #navbar ul {
@@ -173,6 +201,35 @@
           </figure>
         </div>
       </div>
+      <hr>
+      
+      <div class="tableBlock">
+      
+      <h2>My Skills</h2>
+      <h4>What I can do and some examples</h4>
+      <table>
+        <tr>
+          <th>Adobe Illustrator</th>
+          <th>Adobe Photoshop</th>
+          <th>Coding (Java Script &amp; HTML)</th>
+          <th>Videography &amp; Editing</th>
+          
+        </tr>
+        <tr>
+          <td>
+            Personal Logo Project
+            <br>
+          </td>
+          <td>work work work</td>
+          <td>work work work</td>
+          <td>work work work</td>
+        </tr>
+      </table>
+           
+      </div>
+      
+      
+      
       <hr>
       <div id="footer">
         <figure>
